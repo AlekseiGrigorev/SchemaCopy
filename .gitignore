@@ -1,0 +1,51 @@
+/.tmp
+/.env
+/*.prof
+/*.exe
+/config.json
+/*.csv
+
+# IDE и системные файлы
+.idea/
+.DS_Store
+.envrc
+
+# Python go node common cache/artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.bak
+*.swp
+*.tmp
+*.log
+*.out
+*.err
+*.test
+*.spec
+*.pid
+*.seed
+*.tgz
+.Python
+.mypy_cache/
+.tox/
+.pytest_cache/
+.coverage
+
+# build / output
+/build/
+/dist/
+/output/
+
+# Database dumps / локальные базы
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# Артефакты docker/helm/k8s
+*.tar
+*.gz
+*.tgz
+*.chart
+release.yaml
